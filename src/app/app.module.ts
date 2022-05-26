@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { TextComponent } from './text/text.component';
+import { YoutubeComponent } from './youtube/youtube.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
-    TextComponent
+    TextComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,
