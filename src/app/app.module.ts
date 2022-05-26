@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { TextComponent } from './text/text.component';
 import { YoutubeComponent } from './youtube/youtube.component';
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     TextComponent,
-    YoutubeComponent
+    YoutubeComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

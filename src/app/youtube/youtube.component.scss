@@ -16,11 +16,15 @@ p {
 	// border-color: red;
 }
 
+.video-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 40px;
+}
+
 .video-preview {
-	width: 300px;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 15px;
+	min-width: 300px;
 }
 
 .thumbnail-row {
@@ -28,13 +32,14 @@ p {
 }
 
 .thumbnail {
+	width: 100%
 	// keeps constraint unless you set both width and height
-	width: 300px;
+	// width: 300px;
 	// display: block;
 	
 
 	// cover = crop image to fit specified dimension
-	// // contain = resize image to fit specified dimension
+	// contain = resize and keep contraint image to fit specified dimension
 	// object-fit: contain;
 	// object-position: center;
 
@@ -55,9 +60,18 @@ p {
 // 	border-color: gray;
 // }
 
-.video-info {
-	display: inline-block;
-	width: 200px;
+.video-info-grid {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+}
+
+.channel-picture {
+	vertical-align: top;
+}
+
+.profile-picture {
+	width: 80%;
+	border-radius: 100%;
 }
 
 .video-title {
@@ -77,16 +91,4 @@ p {
 .video-stats {
 	font-size: 12px;
 	color: #606060;
-}
-
-.channel-picture {
-	display: inline-block;
-	width: 50px;
-	vertical-align: top;
-}
-
-.profile-picture {
-	width: 100%;
-	width: 40px;
-	border-radius: 100%;
 }
