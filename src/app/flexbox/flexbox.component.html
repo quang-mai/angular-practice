@@ -1,0 +1,92 @@
+<p style="margin-top: 100px; font-weight: bold; font-size: 30px; font-family: Roboto;"><u>Flexbox</u></p>
+
+<!-- Only take up as much space as need via text -->
+<div style="
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+">
+  <div style="background-color: lightblue">div1</div>
+  <div style="background-color: lightpink">div2 <p>text</p></div>
+</div>
+
+<!-- flex:1 takes up remaining space -->
+<div style="
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+">
+  <div style="
+    background-color: lightblue;
+    width: 100px
+">100px</div>
+  <div style="
+    background-color: lightpink;
+    flex: 1;
+  ">flex: 1</div>
+</div>
+
+<!-- flex:1 with other flex takes up remaining space via ratios -->
+<div style="
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+">
+  <div style="
+    background-color: lightblue;
+    width: 100px
+">100px</div>
+  <div style="
+    background-color: lightpink;
+    flex: 1;
+  ">flex: 1</div>
+  <div style="
+    background-color: lightblue;
+    flex: 2;
+  ">flex: 2</div>
+</div>
+
+<!-- flex dependent on width declared -->
+<div style="
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+">
+  <div style="
+    background-color: lightblue;
+    flex:1
+">flex: 1</div>
+  <div style="
+    background-color: lightpink;
+    width: 100px;
+  ">100px</div>
+  <div style="
+    background-color: lightblue;
+    flex: 2;
+  ">flex: 2</div>
+</div>
+
+<!-- flexbox header -->
+<div style="
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+">
+  <div style="
+    background-color: lightblue;
+    width: 100px;
+">100px</div>
+  <div style="
+    background-color: lightpink;
+    width: 100px;
+  ">100px</div>
+  <div style="
+    background-color: lightblue;
+    width: 100px;
+  ">100px</div>
+</div>

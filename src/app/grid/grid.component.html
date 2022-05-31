@@ -1,5 +1,5 @@
+<p style="margin-top: 100px; font-weight: bold; font-size: 30px; font-family: Roboto;"><u>CSS Grid</u></p>
 <div style="
-  margin-top: 100px;
   display: grid;
   grid-template-columns: 100px 100px;
 ">
@@ -79,8 +79,25 @@
   </div>
 </div>
 
+<!-- 1fr and 2fr = 2/3rds of remiaining -->
+<div style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 100px 2fr;
+">
+  <div style="background-color: lightblue;">
+    1fr
+  </div>
+  <div style="background-color: lightpink;">
+    100px
+  </div>
+  <div style="background-color: lightblue;">
+    2fr
+  </div>
+</div>
+
 <!-- 3 even columns -->
-<div style="padding-bottom: 1000px;">
+<div style="padding-bottom: 100px;">
   <div style="
     margin-top: 30px;
     display: grid;

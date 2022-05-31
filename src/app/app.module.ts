@@ -7,6 +7,8 @@ import { ButtonComponent } from './button/button.component';
 import { TextComponent } from './text/text.component';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { GridComponent } from './grid/grid.component';
+import { FlexboxComponent } from './flexbox/flexbox.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { GridComponent } from './grid/grid.component';
     ButtonComponent,
     TextComponent,
     YoutubeComponent,
-    GridComponent
+    GridComponent,
+    FlexboxComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
