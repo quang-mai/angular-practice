@@ -4,18 +4,6 @@ p {
 		margin-bottom: 0px;
 }
 
-.search-bar {
-	font-size: 15px;
-	border-radius: 4px;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-	display: block;
-	margin-bottom: 50px;
-
-	// border-width: 2px;
-	// border-style: solid;
-	// border-color: red;
-}
-
 .video-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +20,13 @@ p {
 }
 
 .thumbnail {
-	width: 100%
+	width: 100%;
+	aspect-ratio: 134/75;
+	object-fit: cover;
+	object-position: center;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
 	// keeps constraint unless you set both width and height
 	// width: 300px;
 	// display: block;
@@ -40,8 +34,7 @@ p {
 
 	// cover = crop image to fit specified dimension
 	// contain = resize and keep contraint image to fit specified dimension
-	// object-fit: contain;
-	// object-position: center;
+
 
 	// use this to visualize the elment's spacing
 	// border-width: 2px;

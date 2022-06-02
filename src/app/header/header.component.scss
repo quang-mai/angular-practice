@@ -2,13 +2,22 @@
 	// border-width: 1px;
 	// border-style: solid;
 	// border-color: red;
+	height: 55px;
 
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
   margin-bottom: 50px;
-	height: 55px;
+	
 	align-items: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	background-color: white;
+	border-bottom: 1px rgb(214, 213, 213) solid;
 }
 
 .left-section {

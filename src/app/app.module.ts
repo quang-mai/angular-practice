@@ -9,6 +9,8 @@ import { YoutubeComponent } from './youtube/youtube.component';
 import { GridComponent } from './grid/grid.component';
 import { FlexboxComponent } from './flexbox/flexbox.component';
 import { HeaderComponent } from './header/header.component';
+import { CssPositionComponent } from './css-position/css-position.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HeaderComponent } from './header/header.component';
     YoutubeComponent,
     GridComponent,
     FlexboxComponent,
-    HeaderComponent
+    HeaderComponent,
+    CssPositionComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
