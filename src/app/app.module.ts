@@ -11,6 +11,7 @@ import { FlexboxComponent } from './flexbox/flexbox.component';
 import { HeaderComponent } from './header/header.component';
 import { CssPositionComponent } from './css-position/css-position.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     FlexboxComponent,
     HeaderComponent,
     CssPositionComponent,
-    SidebarComponent
+    SidebarComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
