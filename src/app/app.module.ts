@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { CssPositionComponent } from './css-position/css-position.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { VideosComponent } from './videos/videos.component';
+import { ChangeDetectionComponent } from './change-detection/change-detection.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { VideosComponent } from './videos/videos.component';
     HeaderComponent,
     CssPositionComponent,
     SidebarComponent,
-    VideosComponent
+    VideosComponent,
+    ChangeDetectionComponent
   ],
   imports: [
     BrowserModule,
